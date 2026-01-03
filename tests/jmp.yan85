@@ -1,0 +1,7 @@
+IMM c 0x06
+IMM a 0x12
+STK a b
+CMP a b
+JMP EZ c
+IMM a 0xff
+SYS EXIT a

@@ -1,0 +1,8 @@
+IMM c 0x02
+IMM a 0x12
+PSH a
+POP b
+CMP a b
+JMP E c
+IMM a 0xff
+SYS EXIT a
